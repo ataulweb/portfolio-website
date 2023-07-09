@@ -3,13 +3,20 @@
 .btn{
     border-radius: 5px;
     background: #FD6E0A;
-    width: 150px;
-    height: 64px;
+    border: none;
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
     padding: 18px 35px; 
     cursor: pointer; 
+}
+
+.hr-height{
+    width: 75vh;
+    height: 1px;
+    background: #D1D1D1;
+    margin: 4vh 0; 
+    border: none;
 }
 /* Universal css */
 *{
@@ -19,12 +26,14 @@
 body{
     font-family: Open Sans; 
 }
-
+header{
+    background: #FFF8F3; 
+}
 .navigation{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 .navigation h1{
     color: #181818;
@@ -40,7 +49,7 @@ nav span{
 
 }
 .navigation-list li{
-    margin-top: 20px;
+    padding-top: 20px;
 }
 .navigation-list a{
     text-decoration: none;
@@ -51,4 +60,190 @@ nav span{
 
 .navigation-list button{
     margin-left: 50px;
+}
+
+/* Banner Section */
+.baner-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url('/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin-right: -0;
+}
+
+.baner-cotent h3{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600; 
+}
+.baner-cotent h1{
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700; 
+}
+h
+.baner-cotent p{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px; 
+}
+
+.baner-cotent button{
+    margin: 20px 0;
+    margin-right: 13px;
+}
+
+/* About Me css */
+.main-section{
+    width: 1250px;
+    height: 3256px;
+    background: #FFF; 
+    margin: 130px auto;
+}
+
+.about-content{
+    width: 1140px;
+    height: 550px;
+    border-radius: 10px;
+    background: #FFF8F3; 
+    margin: 130px auto;
+    /* padding: 25px; */
+}
+.about-content h1{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700; 
+    padding: 130px 0px 50px 0px;
+}
+.about-text{
+    color:#757575; 
+    padding: 20px 130px;
+    text-align: center; 
+    font-size: 18px; 
+    font-weight: 400; 
+    line-height: 30px; 
+
+}
+.about-footer{
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    text-align: center;
+    padding: 0px 130px;
+}
+
+/* what i do section */
+.do-content{
+    text-align: center;
+    padding: 18px 300px;
+}
+
+.do-heading{
+    color:#181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700; 
+    padding: 20px;
+}
+.do-text{
+    color: #757575;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px; 
+    margin-bottom: 35px;
+}
+.do-box-model{
+    width: 267px;
+    height: 377px;
+    flex-shrink: 0; 
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.do-box-model h1{
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700; 
+    padding: 16px 40px;
+}
+.do-box-model p{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    padding: 20px 33px 30px 40px;
+}
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box-img{
+    margin: 30px 40px;
+}
+
+/* Resume Section */
+.resume-section h1{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700; 
+    padding: 130px 0px 50px 0px;
+}
+
+.resume-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 5px;
+    margin-left: 12vh;
+    margin-right: 12vh;
+}
+.each-resume-content-p{
+    color: #757575;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 3vh; 
+
+}
+.each-resume-content-h4{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 2vh; 
+}
+.each-resume-content-h3{
+    color: #474747;
+    font-size: 22px;
+    font-weight: 700; 
+    margin-top: 4vh;
+}
+.each-resume-content-h2{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+.resume-section-h1{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 5vh 0; 
+}
+.resume-section-btn{
+    text-align: center;
+}
+.resume-section{
+    margin-top: 5vh;
 }
