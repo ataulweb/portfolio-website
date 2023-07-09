@@ -46,6 +46,7 @@ nav span{
 .navigation-list{
     display: flex;
     list-style: none;
+    align-items: center;
 
 }
 .navigation-list li{
@@ -67,12 +68,13 @@ nav span{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-image: url('/images/header_bg.png');
+    background-image: url('/images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: right bottom;
-    margin-right: -0;
+    background-position: right bottom, left bottom;
 }
-
+.baner-cotent{
+    padding-left: 20vh;
+}
 .baner-cotent h3{
     color: #474747;
     font-size: 45px;
