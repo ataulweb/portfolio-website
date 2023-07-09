@@ -275,6 +275,7 @@ h
 }
 .form-section input, textarea, button{
     margin: 3vh 0;
+    padding: 15px;
 
 }
 .form-input{
@@ -284,7 +285,7 @@ h
     border: none;
 }
 textarea{
-    padding: 3vh 5vh;
+    /* padding: 3vh 5vh; */
     border: none;
 }
 .massage{
